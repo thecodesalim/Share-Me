@@ -1,0 +1,38 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|react-clone-referenced-element|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|sentry-expo|native-base))"
+    ]
+  },
+  "dependencies": {
+    "expo": "^32.0.0",
+    "expres": "0.0.5",
+    "express": "^4.16.4",
+    "jest-enzyme": "^7.0.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-maps": "^0.23.0",
+    "react-navigation": "^3.5.1",
+    "socket.io": "^2.2.0",
+    "supercluster": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "babel-preset-expo": "^5.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "jest-expo": "^32.0.0",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6"
+  },
+  "private": true
+}
